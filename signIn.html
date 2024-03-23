@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comme:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/landing.css" />
+  <link rel="icon" href="images/Mercedes-Logo.svg.png">
+
+    <title>Sign In</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="landingDiv">
+        <img
+          class="MercedesLogoLanding"
+          src="images/Mercedes-Logo.svg.png"
+          alt="Mercedes-Logo"
+        />
+      
+      <section class="signInSection">
+        <form class="verificationForm" action="homepage.html">
+          <input id="username" type="text" placeholder="Enter your Username" />
+          <input id="password" type="password" placeholder="Password" />
+          <h2 class="wrongPass">The password you’ve entered is incorrect.</h2>
+          <button class="signInButton" type="submit" onclick="signInAcc()">
+            Sign In
+          </button>
+          <a href="registration.html"
+            ><h2 class="createNewAcc">Create new accaunt</h2></a
+          >
+        </form>
+      </div>
+      </section>
+    </div>
+    <script type="text/javascript" src="signIn.js"></script>
+  </body>
+</html>

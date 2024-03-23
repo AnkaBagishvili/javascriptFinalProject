@@ -1,0 +1,389 @@
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  padding-top: 93px;
+  background-color: black;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  max-width: inherit;
+  width: inherit;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 90px;
+  background-color: black;
+  align-items: center;
+}
+.headerUl,
+.footerUl {
+  display: flex;
+  column-gap: 50px;
+}
+.MercedesLogo {
+  width: 50px;
+  height: 50px;
+}
+.headerText,
+.footerTxt {
+  font-size: 15px;
+  color: rgb(113, 113, 113);
+  border: none;
+  background-color: black;
+}
+
+/* Section1Slider */
+.sliderSection {
+  display: flex;
+}
+.sliderPicture {
+  width: 1440px;
+  height: 650px;
+}
+
+/* Section2 */
+.section2,
+.indexSection3 {
+  padding: 96px 94px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  /* cursor: url(//JavascriptFinalProject/images/readmorelogo.webp); */
+}
+.section2_Title {
+  color: rgb(113, 113, 113);
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: overline underline;
+  text-decoration-thickness: 2px;
+}
+.section2_cards,
+#CLECars {
+  display: flex;
+  justify-content: space-around;
+}
+.section2_card {
+  border: 2px solid rgb(113, 113, 113);
+  width: 500px;
+  height: 500px;
+}
+.section2_img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+.section2_card_title {
+  color: rgb(113, 113, 113);
+  font-weight: bold;
+  padding: 10px 0 0 5px;
+}
+.indexReadMore {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.section2_card:hover {
+  box-shadow: 0px 0px 8px 4px rgb(113, 113, 113);
+}
+/* Section3 */
+.cardTxt {
+  color: rgb(113, 113, 113);
+  width: 500px;
+  font-size: 18px;
+}
+.cardTxt:hover {
+  text-decoration: underline;
+}
+/* Footer */
+footer {
+  padding: 64px 92px;
+}
+.footerUl {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  margin-top: 45px;
+}
+
+.footerLogoText {
+  color: white;
+  font-size: 30px;
+}
+/* ReadMorePages */
+.manualSliderTitles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.manualSliderTitle1,
+.manualSliderTitle2 {
+  color: rgb(113, 113, 113);
+}
+.manualSliderTitle1 {
+  font-size: 40px;
+}
+.manualSliderTitle2 {
+  font-size: 30px;
+  padding-left: 30px;
+}
+.manualSlider {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.manualSliderPic {
+  width: 800px;
+  height: 700px;
+  margin-inline: 350px;
+}
+.manualSliderCaption {
+  color: white;
+  font-size: 25px;
+  width: 600px;
+  margin-inline: 450px;
+  margin-top: 30px;
+}
+.buttonsDiv {
+  display: flex;
+  justify-content: space-around;
+}
+#Next,
+#Previous {
+  font-size: 20px;
+  background-color: rgb(113, 113, 113);
+  border: 2px solid rgb(113, 113, 113);
+  border-radius: 5px;
+  color: black;
+}
+
+.s2 {
+  width: 1200px;
+  height: 700px;
+  margin-left: 150px;
+}
+
+/* About */
+/* Section1 */
+.aboutUsContent,
+.foundersDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.aboutUsTxt,
+.foundersTxt,
+.aboutUsReadMore {
+  color: white;
+  width: 450px;
+  padding-top: 20px;
+}
+
+.youtubeVideo,
+.foundersImg {
+  width: 600px;
+  height: 400px;
+}
+/* Section2 */
+.aboutUsSection2 {
+  padding: 50px 0;
+}
+.aboutUsReadMore {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Section3 */
+.aboutUsSection3 {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  background-color: white;
+}
+.section3Title {
+  color: black;
+  font-size: 50px;
+}
+
+.followUsBox {
+  display: flex;
+  column-gap: 25px;
+}
+.fa-brands {
+  color: black;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/* AbousUsReadMore */
+/* Section1 */
+.aboutReadMoreSection1 {
+  background-image: url(/JavascriptFinalProject/images/backgroundimg.avif);
+  height: 675px;
+}
+.aboutReadMoreSection1Title {
+  font-size: 55px;
+  padding: 20px 0 0 20px;
+}
+/* Section2 */
+.aboutReadMoreSection2 {
+  padding: 20px 20px;
+}
+.aboutReadMoreSection2,
+.textDiv {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 60px;
+}
+.aboutReadMoreSection2Title,
+.textDivTxt1,
+.textDivTxt2 {
+  color: white;
+  width: 400px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+.aboutReadMoreSection2Title {
+  font-size: 30px;
+}
+.founder1 {
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+}
+#burgerMenu {
+  cursor: pointer;
+}
+#burgerMenuInfo {
+  display: none;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.burgerMenuInfoTxt {
+  color: red;
+  background-color: black;
+  font-size: 15px;
+}
+/* Contact */
+.contactSection1,
+.submittedInfo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.contactSection1Titles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  align-items: center;
+  padding-top: 25px;
+}
+.contactTitle,
+.submittedInfo {
+  color: rgb(116, 116, 116);
+  font-size: 25px;
+}
+#contactForm,
+.submittedInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+#contactName,
+#contactLastName,
+#contactAge,
+#contactGender,
+#contactCountry,
+#contactCity,
+#contactSubmit {
+  border: 2px solid rgb(113, 113, 113);
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#contactSubmit:active {
+  color: gray;
+}
+.mapSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.map {
+  width: 600px;
+  height: 400px;
+}
+
+/* Catalog */
+.catalogSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding: 30px 0;
+}
+.catalogSectionTitle {
+  color: rgb(113, 113, 113);
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.CLECars_div1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.CLE {
+  width: 400px;
+  height: 400px;
+}
+.filterDiv {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+#yearDropdown,
+#colorDropdown {
+  background-color: rgb(113, 113, 113);
+  border-radius: 5px;
+  height: 20px;
+}
+.margin {
+  margin-inline: 10px;
+}
+
+body 
+{
+  font-family: "Comme", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}

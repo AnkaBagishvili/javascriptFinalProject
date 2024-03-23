@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comme:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="icon" href="images/Mercedes-Logo.svg.png" />
+
+    <title>Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="landingDiv">
+        <img
+          class="MercedesLogoLanding"
+          src="images/Mercedes-Logo.svg.png"
+          alt="Mercedes-Logo"
+        />
+        <h2 class="registrationTitle">Create Account</h2>
+
+        <form id="registerForm" action="signIn.html">
+          <h1>Register</h1>
+
+          <input id="firstName" type="text" placeholder="Enter your Name" required>
+          <br />
+          <br />
+          <input id="lastName" type="text" placeholder="Enter your LastName" required>
+          <br />
+          <br />
+          <input id="username" type="text" placeholder="Enter your Username" required>
+          <br />
+          <br />
+          <input
+            id="password"
+            type="password"
+            placeholder="Enter your Password"
+            required>
+          <br />
+          <br />
+          <button
+            id="registrationButton"
+            onclick="handleRegistration()"
+            type="submit"
+          >
+            Register now
+          </button>
+
+          <p id="error"></p>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="scripts/registerForm.js"></script>
+  </body>
+</html>
